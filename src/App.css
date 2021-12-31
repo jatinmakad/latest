@@ -1,0 +1,185 @@
+.header {
+  position: relative;
+  height: 130px;
+}
+.header-inner {
+  position: absolute;
+  top: 20%;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+}
+.header-inner h1 {
+  font-weight: lighter;
+}
+.header-inner i {
+  font-size: xx-large;
+  margin-right: 30px;
+}
+.main-content-img {
+  object-fit: contain;
+}
+.mentor-logo {
+  display: none;
+}
+.main-contet-outer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.main-content {
+  border-radius: 20px;
+  padding: 13px;
+  border: 1px solid lightgray;
+}
+.main-cont{
+  width: 70%;
+}
+.main-inner {
+  background-image: url("./Images/Rectangle2.png");
+  background-position: center;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  height: 100%;
+}
+.main-content-bg{
+  background: #FFEEEE;
+}
+.main-inner span {
+  color: #ff7878;
+  border-bottom: 1px solid #ff7878;
+}
+.invoice-btn {
+  background-color: transparent;
+  border: 1px solid #ff7878;
+  border-radius: 10px;
+  padding: 10px;
+}
+.invoice-btn i {
+  margin-right: 10px;
+}
+.view-btn {
+  padding: 10px 40px;
+  background: #ff7070;
+  border: none;
+  border-radius: 10px;
+}
+
+
+.booking{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #fff;
+  border-radius: 20px;
+}
+.booking-text{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.booking-text-p p{
+  background-color: #ff7878;
+  border-radius: 20px;
+  padding: 8px 25px;
+ color: #fff;
+ font-size: 15px;
+ letter-spacing: 1px;
+ margin-right: 5px;
+}
+.booking-main-inner{
+  background: transparent !important;
+}
+.booking-text-time i{
+  border-right: 2px solid black;
+  padding-right: 5px;
+  margin-right: 5px;
+}
+.booking-text-time p{
+  border-radius: 30px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-size: 15px;
+  padding: 8px 25px;
+ margin-right: 5px;
+ border: 1px solid black;
+}
+@media only screen and (max-width: 580px) {
+  .booking{
+    align-items:flex-start;
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .header {
+    height: 100px;
+  }
+  .header-inner {
+    margin-left: 15px;
+  }
+  .header-inner h1 {
+    font-size: 35px;
+  }
+  .header-inner i {
+    margin-right: 20px;
+  }
+  .main-content {
+    padding: 5px;
+  }
+  .booking img{
+    width: 25% !important;
+  }
+  .booking{
+    padding: 10px 20px;
+  }
+  .booking-text h2{
+   font-size: 20px;
+  }
+  .booking-text-time p{
+    font-size: 13px !important;
+    letter-spacing: normal;
+    padding: 7px 10px;
+  }
+  .booking-text-p p{
+    padding: 7px 15px;
+    letter-spacing: normal;
+    font-size: 13px !important;
+  }
+  .main-cont{
+    width: 100% !important;
+  }
+  .main-content-img {
+    display: none;
+  }
+  .mentor-logo {
+    display: flex;
+    width: 30% !important;
+  }
+  .mentor-inner h3 {
+    font-size: 20px !important;
+  }
+  .mentor-inner span {
+    font-size: 13px;
+  }
+  .main-inner span {
+    font-size: 13px;
+  }
+
+  .invoice-btn {
+    padding: 5px;
+  }
+  .invoice-btn i {
+    margin-right: 6px;
+  }
+  .view-btn {
+    padding: 10px 20px;
+  }
+}
