@@ -1,3 +1,6 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
 .header {
   position: relative;
   height: 130px;
@@ -144,6 +147,12 @@
     align-items: flex-start;
     flex-direction: column;
   }
+  .main-cont {
+    width: 80% !important;
+  }
+  /* .main-content-img{
+    display: none;
+  } */
 }
 @media only screen and (max-width: 768px) {
   .header {

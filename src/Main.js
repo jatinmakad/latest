@@ -59,7 +59,7 @@ function Main() {
                 <div className="col-12 main-inner">
                   <span className="mb-2">From 1:1 Mentorship Program</span>
                   <h3 className="mb-2">Rs.{_data.amount}</h3>
-                  <button className="invoice-btn">
+                  <button className="invoice-btn mb-3">
                     <i class="fas fa-download"></i>
                     <span>Invoice Download</span>
                   </button>
