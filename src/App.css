@@ -94,21 +94,31 @@
   background: #fff;
   border-radius: 20px;
   padding: 15px 0;
+  padding-left: 10px;
 }
 .booking-text {
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
+.booking-text h2 {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 39px;
+}
 
 .booking-text-p p {
   background-color: #ff7878;
   border-radius: 20px;
-  padding: 8px 25px;
-  color: #fff;
-  font-size: 15px;
-  letter-spacing: 1px;
+  padding: 8px 20px;
   margin-right: 5px;
+  /* background: #FF7070; */
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
 }
 .booking-main-inner {
   background: transparent !important;
@@ -121,14 +131,15 @@
 }
 .booking-text-time p {
   border-radius: 30px;
-  font-weight: 500;
-  letter-spacing: 1px;
-  font-size: 15px;
   padding: 8px 25px;
   margin-right: 5px;
   border: 1px solid black;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 15px;
 }
-@media only screen and (max-width: 580px) {
+@media only screen and (max-width: 990px) {
   .booking {
     align-items: flex-start;
     flex-direction: column;
@@ -161,26 +172,23 @@
   .booking {
     padding: 10px 5px;
   }
-  .booking-text h2{
+  .booking-text h2 {
     font-size: 16px;
     font-weight: 700;
     line-height: 19px;
-    }
+  }
   .booking-text-time p {
-    padding: 7px 15px;
+    padding: 7px 5px;
     letter-spacing: normal;
-font-size: 6px;
-font-style: normal;
-font-weight: 700;
-line-height: 7px;
-
+    font-size: 7px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 7px;
   }
   .booking-text-p p {
- 
-
-font-size: 8px;
-font-weight: 400;
-line-height: 9px;
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 9px;
     letter-spacing: normal;
     padding: 7px 10px;
   }
@@ -195,15 +203,14 @@ line-height: 9px;
     width: 30% !important;
   }
   .mentor-inner h3 {
-font-size: 17px;
-font-weight: 700;
-line-height: 21px;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 21px;
   }
   .mentor-inner span {
-font-size: 10px;
-font-weight: 600;
-line-height: 12px;
-
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 12px;
   }
   .main-inner span {
     font-size: 9px;
