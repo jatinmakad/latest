@@ -18,12 +18,12 @@
   margin-right: 30px;
 }
 .main-content-img {
-  object-fit: contain;
+  /* object-fit: contain; */
 }
 .mentor-logo {
   display: none;
 }
-.main-contet-outer{
+.main-contet-outer {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -33,89 +33,104 @@
 }
 .main-content {
   border-radius: 20px;
-  padding: 13px;
+  padding: 12px 0;
   border: 1px solid lightgray;
 }
-.main-cont{
-  width: 75%;
+.main-cont {
+  width: 60%;
 }
 .main-inner {
-  background-image: url("./Images/Rectangle2.png");
+  background-image: url("./Images/Rectangle\ 100.png");
   background-position: center;
   border-radius: 10px;
-  padding: 10px;
+  padding: 10px 5px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-around;
   height: 100%;
 }
-.main-content-bg{
-  background: #FFEEEE;
+.main-content-bg {
+  background: #ffeeee;
 }
 .main-inner span {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
   color: #ff7878;
   border-bottom: 1px solid #ff7878;
+}
+.main-inner h3 {
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
 }
 .invoice-btn {
   background-color: transparent;
   border: 1px solid #ff7878;
   border-radius: 10px;
-  padding: 10px;
+  padding: 10px 0;
+  width: 100%;
 }
 .invoice-btn i {
   margin-right: 10px;
 }
 .view-btn {
-  padding: 10px 40px;
+  width: 100%;
+  padding: 10px 0;
   background: #ff7070;
   border: none;
   border-radius: 10px;
 }
 
-
-.booking{
+.booking {
   display: flex;
   align-items: center;
   justify-content: space-around;
   background: #fff;
   border-radius: 20px;
-  padding: 15px 10px;
+  padding: 15px 0;
 }
-.booking-text{
+.booking-text {
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
-.booking-text-p p{
+
+.booking-text-p p {
   background-color: #ff7878;
   border-radius: 20px;
   padding: 8px 25px;
- color: #fff;
- font-size: 15px;
- letter-spacing: 1px;
- margin-right: 5px;
+  color: #fff;
+  font-size: 15px;
+  letter-spacing: 1px;
+  margin-right: 5px;
 }
-.booking-main-inner{
+.booking-main-inner {
   background: transparent !important;
+  padding: 10px 0 !important;
 }
-.booking-text-time i{
+.booking-text-time i {
   border-right: 2px solid black;
   padding-right: 5px;
   margin-right: 5px;
 }
-.booking-text-time p{
+.booking-text-time p {
   border-radius: 30px;
   font-weight: 500;
   letter-spacing: 1px;
   font-size: 15px;
   padding: 8px 25px;
- margin-right: 5px;
- border: 1px solid black;
+  margin-right: 5px;
+  border: 1px solid black;
 }
 @media only screen and (max-width: 580px) {
-  .booking{
-    align-items:flex-start;
+  .booking {
+    align-items: flex-start;
     flex-direction: column;
   }
 }
@@ -129,32 +144,47 @@
   .header-inner h1 {
     font-size: 35px;
   }
+  /* .booking-text-p{
+    overflow: scroll;
+    width: 100%;
+    position: relative;
+   } */
   .header-inner i {
     margin-right: 20px;
   }
   .main-content {
-    padding: 5px;
+    padding: 5px 0;
   }
-  .booking img{
+  .booking img {
     width: 25% !important;
   }
-  .booking{
-    padding: 10px 20px;
+  .booking {
+    padding: 10px 5px;
   }
   .booking-text h2{
-   font-size: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    }
+  .booking-text-time p {
+    padding: 7px 15px;
+    letter-spacing: normal;
+font-size: 6px;
+font-style: normal;
+font-weight: 700;
+line-height: 7px;
+
   }
-  .booking-text-time p{
-    font-size: 13px !important;
+  .booking-text-p p {
+ 
+
+font-size: 8px;
+font-weight: 400;
+line-height: 9px;
     letter-spacing: normal;
     padding: 7px 10px;
   }
-  .booking-text-p p{
-    padding: 7px 15px;
-    letter-spacing: normal;
-    font-size: 13px !important;
-  }
-  .main-cont{
+  .main-cont {
     width: 100% !important;
   }
   .main-content-img {
@@ -165,22 +195,39 @@
     width: 30% !important;
   }
   .mentor-inner h3 {
-    font-size: 20px !important;
+font-size: 17px;
+font-weight: 700;
+line-height: 21px;
   }
   .mentor-inner span {
-    font-size: 13px;
+font-size: 10px;
+font-weight: 600;
+line-height: 12px;
+
   }
   .main-inner span {
-    font-size: 13px;
+    font-size: 9px;
+    font-weight: 400;
+    line-height: 11px;
+  }
+  .main-inner h3 {
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 20px;
   }
 
   .invoice-btn {
-    padding: 5px;
+    font-size: 9px;
+    font-weight: 600;
+    line-height: 11px;
+    margin-bottom: 8px;
   }
   .invoice-btn i {
     margin-right: 6px;
   }
   .view-btn {
-    padding: 10px 20px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15px;
   }
 }

@@ -5,12 +5,12 @@ import "./App.css";
 function Booking() {
   return (
     <div className="row main-content main-content-bg mb-4">
-      <div className="col-md-8 col-12">
-        <div className="booking col-12 h-100 w-100">
+      <div className="col-md-8 col-7">
+        <div className="booking col-12">
           <img src={Icon} alt="" className="img-fluid w-25 mb-2" />
           <div className="booking-text">
             <h2 className="">Bhavy Chitranshi</h2>
-            <div className="d-flex align-item-center booking-text-p">
+            <div className="d-flex booking-text-p">
               <p>Domain</p>
               <p>Inductry</p>
             </div>
@@ -25,7 +25,7 @@ function Booking() {
           </div>
         </div>
       </div>
-      <div className="col-md-4 col-12">
+      <div className="col-md-4 col-5">
         <div className="col-12 main-inner booking-main-inner">
           <span className="mb-2">From 1:1 Mentorship Program</span>
           <h3 className="mb-2">Rs.500</h3>

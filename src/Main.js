@@ -1,5 +1,5 @@
 import React from "react";
-import Bg from "./Images/Rectangle 95.png";
+import Bg from "./Images/RectangleBg.png";
 import Vector from "./Images/Vector 44.png";
 import Mentor from "./Images/image 4.png";
 import "./App.css";
@@ -59,7 +59,7 @@ function Main() {
                 <div className="col-12 main-inner">
                   <span className="mb-2">From 1:1 Mentorship Program</span>
                   <h3 className="mb-2">Rs.{_data.amount}</h3>
-                  <button className="invoice-btn mb-3">
+                  <button className="invoice-btn">
                     <i class="fas fa-download"></i>
                     <span>Invoice Download</span>
                   </button>
