@@ -1,6 +1,6 @@
 import React from "react";
-import BgTop from "./Images/bgTop.png";
-import './App.css';
+import BgTop from "../Images/bgTop.png";
+import '../App.css';
 function Header() {
   return (
     <div className="header">

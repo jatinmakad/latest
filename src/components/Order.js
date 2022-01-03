@@ -1,8 +1,9 @@
 import React from "react";
-import Bg from "./Images/RectangleBg.png";
-import Vector from "./Images/Vector 44.png";
-import Mentor from "./Images/image 4.png";
-import "./App.css";
+import Bg from "../Images/RectangleBg.png";
+import Vector from "../Images/Vector 44.png";
+import Mentor from "../Images/image 4.png";
+import "../App.css";
+import Line from "../Images/line.png"
 import Booking from "./Booking";
 const data = [
   {
@@ -24,9 +25,9 @@ const data = [
     amount: "1,500",
   },
 ];
-function Main() {
+function Order() {
   return (
-    <div className="container-fluid main-contet-outer">
+    <div className="container-fluid main-contet-outer d-flex flex-column align-item-center w-100 h-100">
       <div className="main-cont container-fluid">
         {data.map((_data) => {
           return (
@@ -38,9 +39,7 @@ function Main() {
                   <h3 className="mb-3">{_data.title}</h3>
                   <div className="d-flex h-auto">
                     <img
-                      src={Vector}
-                      alt=""
-                      className="h-75 bg-dark mt-2"
+                      src={Line}
                       style={{ marginRight: "10px" }}
                     />
                     <div className="d-flex flex-column align-item-center text-black-50">
@@ -56,10 +55,10 @@ function Main() {
                 </div>
               </div>
               <div className="col-md-4 col-6">
-                <div className="col-12 main-inner">
-                  <span className="mb-2">From 1:1 Mentorship Program</span>
-                  <h3 className="mb-2">Rs.{_data.amount}</h3>
-                  <button className="invoice-btn mb-3">
+                <div className="col-12 main-inner d-flex flex-column align-item-start justify-content-around h-100">
+                  <span className="one">From 1:1 Mentorship Program</span>
+                  <h3 className="">Rs.{_data.amount}</h3>
+                  <button className="invoice-btn">
                     <i class="fas fa-download"></i>
                     <span>Invoice Download</span>
                   </button>
@@ -75,4 +74,4 @@ function Main() {
   );
 }
 
-export default Main;
+export default Order;

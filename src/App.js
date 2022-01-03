@@ -1,12 +1,13 @@
 import React from "react";
 import "./App.css";
-import Main from "./Main";
-import Header from "./Header";
+import Header from "./components/Header";
+import Order from "./components/Order";
+
 function App() {
   return (
     <div className="App">
       <Header/>
-      <Main/>
+      <Order/>
     </div>
     
   );
