@@ -1,6 +1,5 @@
 import React from "react";
 import Bg from "../Images/RectangleBg.png";
-import Vector from "../Images/Vector 44.png";
 import Mentor from "../Images/image 4.png";
 import "../App.css";
 import Line from "../Images/line.png"
@@ -33,14 +32,14 @@ function Order() {
           return (
             <div className="row main-content mb-4">
               <img src={Bg} alt="" className="main-content-img col-md-4" />
-              <div className="col-md-4 col-6">
+              <div className="col-md-4 col-6 col-sm-6">
                 <div className="col-12 d-flex flex-column h-100 w-100 justify-content-center mentor-inner">
                   <img src={Mentor} alt="" className="w-25 mentor-logo" />
                   <h3 className="mb-3">{_data.title}</h3>
                   <div className="d-flex h-auto">
                     <img
                       src={Line}
-                      style={{ marginRight: "10px" }}
+                      style={{ marginRight: "10px",objectFit:"covers" }}
                     />
                     <div className="d-flex flex-column align-item-center text-black-50">
                       <span
@@ -54,7 +53,7 @@ function Order() {
                   </div>
                 </div>
               </div>
-              <div className="col-md-4 col-6">
+              <div className="col-md-4 col-6 col-sm-6">
                 <div className="col-12 main-inner d-flex flex-column align-item-start justify-content-around h-100">
                   <span className="one">From 1:1 Mentorship Program</span>
                   <h3 className="">Rs.{_data.amount}</h3>
@@ -68,7 +67,7 @@ function Order() {
             </div>
           );
         })}
-        <Booking />
+        {/* <Booking /> */}
       </div>
     </div>
   );
