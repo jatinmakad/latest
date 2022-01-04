@@ -53,7 +53,7 @@ function Order() {
                   </div>
                 </div>
               </div>
-              <div className="col-md-4 col-6 col-sm-6">
+              <div className="col-md-4 col-6 col-sm-6 order-p p-0">
                 <div className="col-12 main-inner d-flex flex-column align-item-start justify-content-around h-100">
                   <span className="one">From 1:1 Mentorship Program</span>
                   <h3 className="">Rs.{_data.amount}</h3>
@@ -67,7 +67,7 @@ function Order() {
             </div>
           );
         })}
-        {/* <Booking /> */}
+        <Booking />
       </div>
     </div>
   );

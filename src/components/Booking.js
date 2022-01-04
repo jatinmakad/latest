@@ -17,7 +17,7 @@ function Booking() {
       {data.map((_data) => {
         return (
           <div className="row main-content main-content-bg mb-4">
-            <div className="col-md-8 col-7">
+            <div className="col-md-8 col-6 booking-bt p-0">
               <div className="booking col-12 d-flex flex-row align-item-center justify-content-around">
                 <img src={Icon} alt="" className="img-fluid w-25 mb-2" />
                 <div className="booking-text d-flex flex-column justify-content-center">
@@ -39,7 +39,7 @@ function Booking() {
                 </div>
               </div>
             </div>
-            <div className="col-md-4 col-5">
+            <div className="col-md-4 col-6">
               <div className="col-12 main-inner d-flex booking-main-inner flex-column align-item-start justify-content-around h-100">
                   <span className="one">From 1:1 Mentorship Program</span>
                   <h3 className="">Rs.{_data.rate}</h3>
