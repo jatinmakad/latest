@@ -1,9 +1,10 @@
 import React from "react";
 import Bg from "../Images/RectangleBg.png";
 import Mentor from "../Images/image 4.png";
-import "../App.css";
+// import "../App.css";
 import Line from "../Images/line.png"
 import Booking from "./Booking";
+import "./order.css"
 const data = [
   {
     title: "IT Professional",
@@ -67,7 +68,7 @@ function Order() {
             </div>
           );
         })}
-        <Booking />
+        {/* <Booking /> */}
       </div>
     </div>
   );
