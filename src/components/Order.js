@@ -1,10 +1,10 @@
 import React from "react";
 import Bg from "../Images/RectangleBg.png";
 import Mentor from "../Images/image 4.png";
-// import "../App.css";
+import "../App.css";
 import Line from "../Images/line.png"
 import Booking from "./Booking";
-import "./order.css"
+// import "./order.css"
 const data = [
   {
     title: "IT Professional",
@@ -32,7 +32,7 @@ function Order() {
         {data.map((_data) => {
           return (
             <div className="row main-content mb-4">
-              <img src={Bg} alt="" className="main-content-img col-md-4" />
+              <img src={Bg} alt="" className="main-content-img col-md-4" style={{objectFit:"contain"}} />
               <div className="col-md-4 col-6 col-sm-6">
                 <div className="col-12 d-flex flex-column h-100 w-100 justify-content-center mentor-inner">
                   <img src={Mentor} alt="" className="w-25 mentor-logo" />
@@ -68,7 +68,7 @@ function Order() {
             </div>
           );
         })}
-        {/* <Booking /> */}
+        <Booking />
       </div>
     </div>
   );

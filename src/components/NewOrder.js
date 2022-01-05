@@ -1,5 +1,5 @@
 import React from "react";
-import "./order.css";
+// import "./order.css";
 import Bg from "../Images/RectangleBg.png";
 import Line from "../Images/line.png";
 import Mentor from "../Images/image 4.png";
@@ -8,7 +8,7 @@ function NewOrder() {
   return (
     <div className="order-main">
       <div className="order">
-        <img src={Bg} alt="" className="order-left" />
+        <img src={Bg} alt=""  className="order-left" />
         <div className="order-mid">
           <img src={Mentor} alt="" />
           <h3 className="">IT Professional</h3>
