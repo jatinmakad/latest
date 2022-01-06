@@ -4,7 +4,6 @@ import Mentor from "../Images/image 4.png";
 import "../App.css";
 import Line from "../Images/line.png"
 import Booking from "./Booking";
-// import "./order.css"
 const data = [
   {
     title: "IT Professional",
@@ -32,7 +31,7 @@ function Order() {
         {data.map((_data) => {
           return (
             <div className="row main-content mb-4">
-              <img src={Bg} alt="" className="main-content-img col-md-4" style={{objectFit:"contain"}} />
+              <img src={Bg} alt="" className="main-content-img col-md-4" style={{ objectFit: "contain" }} />
               <div className="col-md-4 col-6 col-sm-6">
                 <div className="col-12 d-flex flex-column h-100 w-100 justify-content-center mentor-inner">
                   <img src={Mentor} alt="" className="w-25 mentor-logo" />
@@ -40,7 +39,7 @@ function Order() {
                   <div className="d-flex h-auto">
                     <img
                       src={Line}
-                      style={{ marginRight: "10px",objectFit:"covers" }}
+                      style={{ marginRight: "10px", objectFit: "covers" }}
                     />
                     <div className="d-flex flex-column align-item-center text-black-50">
                       <span
